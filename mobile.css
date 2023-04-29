@@ -1,0 +1,56 @@
+@media screen and (max-width:1250px) {
+    /* hero section */
+   .menu{
+    display: none;
+   } 
+   .nav-mobile{
+    display: flex;
+   }
+   .first-image{
+    display: none;
+   }
+   .hero-content-writeup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+   }
+
+   /* about section */
+     .header{
+    text-align: center;
+   }
+   .welcome-writeup{
+    display: block;
+    text-align: center;
+    padding: 2px;
+   }
+   .review-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   }
+   .btn{
+    width: 25%;
+   }
+   .contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+  .icon-holder a{
+   margin-left: 15px;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-content span{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
